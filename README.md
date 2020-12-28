@@ -2,8 +2,6 @@
 Submission for Finals of Continental Fiction2Science 2019 Hackathon. <br>
 Secured the highest score for ideation and implementation.
 
-![example](figs/example.JPG)
-
 # Usage
 1. Run the `vid2frame.py` to convert video to frames. The below is an example of usage
 ```
@@ -19,7 +17,13 @@ Secured the highest score for ideation and implementation.
 3. Alert will be given as two types:
     * Preemptive alert: When there is suspicion of an accident, there will be an ouput in the terminal stating preemptive alert along with the object identified and frame number in which the alert was thrown.
     * Ultimate alert: This is when the algorithm knows for sure the accident is going to occur. In this case, it will output APPLY HEAVY BREAKS NOW along with the object identified and frame number in which the alert was thrown.
-    * In case when there is no event of suspicion of crash, no output is given.
+    * In case when there is no event of suspicion of crash, no output is given. <br>
+
+## Example Output
+![example](figs/example.jpg)
+
+# Pretrained models
+Yet to upload
 
 # Note
 * The trapezium mask that has to be input (`trap_vid3.png` in the above examples) is specific for the dashboard dimension of the car.
