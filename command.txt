@@ -1,0 +1,1 @@
+python merger.py --image_path front_test1 --det det_front1 --trap_path trap_vid4.png
